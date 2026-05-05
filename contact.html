@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Hotel Shree Yash Residency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&family=Rhodium+Libre&family=Tiro+Devanagari+Marathi:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="festival-banner">
+    <strong>Home delivery</strong> — ring us on <strong>8975629797</strong> or <strong>8806379797</strong>
+  </div>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="index.html">Hotel Shree Yash Residency</a>
+      <span class="delivery-badge"><span class="icon" aria-hidden="true">🛵</span> Home Delivery</span>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">☰</label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <header class="page-hero">
+    <h1>Contact Us</h1>
+    <p>Dine in, book the banquet hall, or order home delivery — we are happy to help.</p>
+  </header>
+
+  <main class="container" id="main-content">
+    <div class="contact-layout">
+      <section class="contact-info" aria-labelledby="contact-info-heading">
+        <h2 id="contact-info-heading">Visit &amp; Call</h2>
+        <dl>
+          <dt>Phone</dt>
+          <dd>
+            <a href="tel:8975629797">8975629797</a><br>
+            <a href="tel:8806379797">8806379797</a>
+          </dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:hotelshreeyashresidency11@gmail.com">hotelshreeyashresidency11@gmail.com</a></dd>
+          <dt>Address</dt>
+          <dd>
+            Hotel Shree Yash Residency<br>
+            Wai – Surur road, Shahabag<br>
+            Wai, Satara<br>
+            Maharashtra, India
+          </dd>
+        </dl>
+
+        <!-- Home delivery callout -->
+        <div class="delivery-callout">
+          <strong>🛵 Home delivery</strong>
+          Call either number above to place your order. Mention your area in Wai / nearby and preferred time.
+          We also pack Shravan and festival specials for takeaway.
+        </div>
+      </section>
+
+      <section class="contact-form" aria-labelledby="form-heading">
+        <h2 id="form-heading">Send a Message</h2>
+        <!-- Static demo: hook to your backend or form service for real submissions -->
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Delivery address, banquet date, or questions..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Map: area near Wai–Surur road, Shahabag (replace embed from Google Maps → Share for exact pin) -->
+    <div class="map-wrap">
+      <iframe
+        title="Map of Wai, Satara area near Hotel Shree Yash Residency"
+        src="https://www.google.com/maps?q=Shahabag+Wai+Satara+Maharashtra&output=embed"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Hotel Shree Yash Residency. Home delivery &amp; banquet enquiries welcome.</p>
+  </footer>
+</body>
+</html>
